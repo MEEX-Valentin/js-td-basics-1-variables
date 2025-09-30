@@ -16,3 +16,17 @@
 //    Mark est plus élevé que celui de John ? true").
 //
 // BONNE CHANCE 😀
+
+// Mark
+const markWeight = 80;
+const markHeight = 1.82;
+const markBMI = markWeight / Math.pow(markHeight, y=2);
+
+// John
+const johnWeight = 60;
+const johnHeight = 1.70;
+const johnBMI = johnWeight / Math.pow(johnHeight, y=2);
+
+const isMarkBmiBiggerThanJohnBmi = markBMI > johnBMI;
+
+console.log(`Est-ce que le BMI de Mark et plus élevé que celui de Jhon ? ${isMarkBmiBiggerThanJohnBmi}. Mark a un BMI de ${markBMI} et John de ${johnBMI}.`);
