@@ -20,13 +20,25 @@
 // Mark
 const markWeight = 80;
 const markHeight = 1.82;
-const markBMI = markWeight / Math.pow(markHeight, y=2);
+const markBMI = markWeight / Math.pow(markHeight, y = 2);
 
 // John
 const johnWeight = 60;
 const johnHeight = 1.70;
-const johnBMI = johnWeight / Math.pow(johnHeight, y=2);
+const johnBMI = johnWeight / Math.pow(johnHeight, y = 2);
 
-const isMarkBmiBiggerThanJohnBmi = markBMI > johnBMI;
+const isMarkBMIBiggerThanJohnBMI = markBMI > johnBMI;
 
-console.log(`Est-ce que le BMI de Mark et plus élevé que celui de Jhon ? ${isMarkBmiBiggerThanJohnBmi}. Mark a un BMI de ${markBMI} et John de ${johnBMI}.`);
+console.log(`Est-ce que le BMI de Mark et plus élevé que celui de John ? ${isMarkBMIBiggerThanJohnBMI}. Mark a un BMI de ${markBMI} et John de ${johnBMI}.`);
+
+
+if (markBMI > johnBMI) {
+    console.log('Le BMI de Mark est plus élevé que celui de John .');
+} else {
+    if (markBMI === johnBMI) {
+        console.log('Le BMI de John et de Mark sont identiques.');
+    } else {
+        console.log('Le BMI de John est plus élevé que celui de Mark.');
+    }
+}
+

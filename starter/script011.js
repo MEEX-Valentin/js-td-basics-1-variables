@@ -41,3 +41,13 @@ console.log(a <= b);
 
 // "!" devant la parenthèse c'est la négation
 console.log(!(a > b));
+
+// "&&" c'est truthy ou falsy
+console.log(a && b);
+
+// "&&" c'est truthy
+console.log(a > 12 && b > 34);
+
+// "||" c'est le "ou"
+console.log(a > 12 || b > 34);
+
