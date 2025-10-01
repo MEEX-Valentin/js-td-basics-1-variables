@@ -34,11 +34,9 @@ console.log(`Est-ce que le BMI de Mark et plus élevé que celui de John ? ${isM
 
 if (markBMI > johnBMI) {
     console.log('Le BMI de Mark est plus élevé que celui de John .');
+} else if (markBMI === johnBMI) {
+    console.log('Le BMI de John et de Mark sont identiques.');
 } else {
-    if (markBMI === johnBMI) {
-        console.log('Le BMI de John et de Mark sont identiques.');
-    } else {
-        console.log('Le BMI de John est plus élevé que celui de Mark.');
-    }
+    console.log('Le BMI de John est plus élevé que celui de Mark.');
 }
 
